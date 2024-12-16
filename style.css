@@ -10,10 +10,12 @@
   display: block;
   text-align: right;
 }
-.description .matrix {
+.description 
+.matrix {
   width: 100%;
 }
-.description .more-inf {
+.description 
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -39,13 +41,17 @@
   margin: 0;
   padding: 0px;
 }
-.item, .header {
+.item, 
+.header {
   list-style: none;
 }
-.task, .edit{
+.task, 
+.edit{
   outline: none;
 }
-.edit, .delete, .add{
+.edit, 
+.delete,
+.add{
   background: none;
   border: 0px;
   color: #888;
@@ -107,43 +113,55 @@
   vertical-align: middle;
 }
 
-.item > .check{
+.item > 
+.check{
   margin: 0 10px;
 }
-.item > .label-task {
+.item > 
+.label-task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.item > .task-style{
+.item > 
+.task-style{
   width: 226px;
 }
-.delete .image {
+.delete 
+.image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete .image:hover {
+.delete 
+.image:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.list#completed-tasks .task{
+.list#completed-tasks 
+.task {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.list .item .task-style {
+.list 
+.item 
+.task-style {
   display: none;
 }
 
-.list .item.edit-mode .task-style {
+.list 
+.item.edit-mode 
+.task-style {
   display:inline-block;
   width: 224px;
 }
 
-.list .item.edit-mode .label-task {
+.list 
+.item.edit-mode 
+.label-task {
   display: none;
 }
