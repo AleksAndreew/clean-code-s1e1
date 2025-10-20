@@ -7,10 +7,10 @@
 </head>
 <body class="page">
   <header class="header">
-    <img src="./eisenhower-matrix.jpg" class="image" alt="eisenhower matrix">
+    <img src="./eisenhower-matrix.jpg" class="header__image" alt="eisenhower matrix">
     <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
-  <main class="centered">
+  <main class="main">
     <section id="top">
       <h3 class="first heading">Add Item</h3>
       <div class="task-row-wrapper">
@@ -18,38 +18,38 @@
         <button class="button">Add</button>
       </div>
     </section>
-    <section>
+    <section class="todo">
       <h3 class="heading">Todo</h3>
       <ul id="incomplete" class="list">
         <li class="list-item">
-          <input type="checkbox">
-          <label class="label task">Pay Bills</label>
+          <input type="checkbox" class="list-item__input">
+          <label class="list-item_label task">Pay Bills</label>
           <input type="text" class="task">
-          <button class="button edit">Edit</button>
-          <button class="button delete">
+          <button class="list-item__button edit">Edit</button>
+          <button class="list-item__button delete">
             <img class="delete-image" src="./remove.svg" alt=""> <!-- If alt is redundant for a picture, or if it is used only for decorative purposes use the empty alternate text alt="". -->
           </button>
         </li>
         <li class="list-item edit">
-          <input type="checkbox">
-          <label class="label task">Go Shopping</label>
+          <input type="checkbox" class="list-item__input">
+          <label class="list-item_label task">Go Shopping</label>
           <input type="text" value="go shopping" class="task">
-          <button class="button edit">Save</button>
-          <button class="button delete">
+          <button class="list-item__button edit">Save</button>
+          <button class="list-item__button delete">
             <img class="delete-image" src="./remove.svg" alt="">
           </button>
         </li>
       </ul>
     </section>
-    <section>
+    <section class="completed">
       <h3 class="heading">Completed</h3>
       <ul id="completed" class="list">
         <li class="list-item">
-          <input type="checkbox" checked>
-          <label class="label task">See the Doctor</label>
+          <input type="checkbox" checked class="list-item__input list-item__input_checked">
+          <label class="list-item_label task">See the Doctor</label>
           <input type="text" class="task">
-          <button class="button edit">Edit</button>
-          <button class="button delete">
+          <button class="list-item__button edit">Edit</button>
+          <button class="list-item__button delete">
             <img class="delete-image" src="./remove.svg" alt="">
           </button>
         </li>

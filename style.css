@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.image{
+.header__image{
   width: 100%;
 }
 
@@ -26,7 +26,7 @@
   }
 }
 
-.centered {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -55,7 +55,7 @@ input,button{  /* Resetting styles is allowed, I leave it as is */
   outline: none;
 }
 
-.button {
+.button, .list-item__button {
   background: none;
   border: 0px;
   color: #888;
@@ -65,7 +65,7 @@ input,button{  /* Resetting styles is allowed, I leave it as is */
   cursor: pointer;
 }
 
-.button:hover {
+.button:hover, .list-item__button:hover {
   color: #3a3a3a;
 }
 
@@ -128,7 +128,7 @@ input[type="text"]:focus {
   margin: 0 10px;
 }
 
-.list-item > .label {
+.list-item > .list-item_label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -150,7 +150,7 @@ input[type="text"]:focus {
 }
 
 /* Completed */
-#completed .label {
+#completed .list-item_label {
   text-decoration: line-through;
   color: #888;
 }
@@ -165,6 +165,6 @@ input[type="text"]:focus {
   width: 224px;
 }
 
-.list .list-item.edit .label {
+.list .list-item.edit .list-item_label {
   display: none;
 }
